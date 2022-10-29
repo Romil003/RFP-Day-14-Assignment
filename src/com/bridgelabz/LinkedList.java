@@ -5,7 +5,7 @@ public class LinkedList<E> {
 
     Node<E> tail ;
 
-    public void add(E data) {
+    public void add(E data){
         Node<E> newNode = new Node<>(data);
         if(head == null){
             head = newNode;
