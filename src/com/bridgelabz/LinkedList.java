@@ -1,9 +1,9 @@
 package com.bridgelabz;
 
 public class LinkedList<E> {
-    Node<E> head;
+    Node<E> head ;
 
-    Node<E> tail;
+    Node<E> tail ;
 
     public void add(E data){
         Node<E> newNode = new Node<>(data);
