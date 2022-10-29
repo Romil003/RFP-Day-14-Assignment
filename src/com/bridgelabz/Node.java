@@ -1,9 +1,9 @@
 package com.bridgelabz;
 
 public class Node<E> {
-    private E data;
+    private E data ;
 
-    private Node<E> next;
+    private Node<E> next ;
 
     public Node() {
     }
