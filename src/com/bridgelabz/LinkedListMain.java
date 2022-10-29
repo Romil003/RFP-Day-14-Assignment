@@ -4,7 +4,7 @@ public class LinkedListMain {
 
     public static void main(String[] args) {
 
-        com.bridgelabz.LinkedList<Integer> linkedList1 = new LinkedList<>();
+        LinkedList<Integer> linkedList1 = new LinkedList<>();
 
         linkedList1.add(70);
         linkedList1.add(30);
