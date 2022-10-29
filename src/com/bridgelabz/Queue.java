@@ -18,12 +18,22 @@ public class Queue<E> {
         linkedList1.display();
     }
 
+    public void dequeue(){
+        linkedList1.pop();
+    }
+
+
     public static void main(String[] args) {
 
         Queue<Integer> queue1 = new Queue<>();
         queue1.enqueue(56);
         queue1.enqueue(30);
         queue1.enqueue(70);
+        queue1.printQueue();
+        System.out.println();
+        System.out.println();
+
+        queue1.dequeue();
         queue1.printQueue();
         System.out.println();
 
