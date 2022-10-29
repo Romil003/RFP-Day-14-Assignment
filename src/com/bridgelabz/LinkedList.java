@@ -20,7 +20,7 @@ public class LinkedList<E> {
     public void display() {
         Node<E> temp = head;
         if(head == null){
-            System.out.println("Linked List is empty");
+            System.out.println("List is empty");
         }
         while(temp != null){
             System.out.print(temp.getData() + " ");
