@@ -46,12 +46,21 @@ public class LinkedListMain {
         }
 
         System.out.println();
-        if (linkedList1.insertAfter(30,45)){
+        if (linkedList2.insertAfter(30,40)){
             System.out.println("Valid Insertion");
-            linkedList1.display();
+            linkedList2.display();
         }
         else {
             System.out.println("Invalid insertion");
+        }
+
+        System.out.println();
+        if(linkedList2.deleteValue(45)){
+            System.out.println("Value can be deleted");
+            linkedList2.display();
+        }
+        else {
+            System.out.println("Cannot delete this value");
         }
 
 
